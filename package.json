@@ -1,0 +1,26 @@
+{
+  "name": "api-service",
+  "version": "1.0.4",
+  "description": "",
+  "scripts": {
+    "patch": "npm version patch --force",
+    "rollup": "rollup -c",
+    "pup": "yarn rollup && yarn patch && yarn pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheryx2020/api-service.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "rollup": "^3.29.4"
+  }
+}

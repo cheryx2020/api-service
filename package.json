@@ -1,5 +1,5 @@
 {
-  "name": "api-service",
+  "name": "@cheryx2020/api-service",
   "version": "1.0.4",
   "description": "",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cheryx2020/api-service.git"
+    "url": "git+https://github.com/cheryx2020/api-service.git"
   },
   "type": "module",
   "main": "dist/index.js",
@@ -17,10 +17,15 @@
   "files": [
     "dist"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Vinh Nguyen",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.5.1",
     "rollup": "^3.29.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/cheryx2020/api-service/issues"
+  },
+  "homepage": "https://github.com/cheryx2020/api-service#readme",
+  "devDependencies": {}
 }

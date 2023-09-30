@@ -1,3 +1,5 @@
+name: Publish
+run-name: Publish
 on: [push]
 jobs:
   publish:

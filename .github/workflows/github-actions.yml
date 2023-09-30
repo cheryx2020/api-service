@@ -1,6 +1,6 @@
 name: Publish
 run-name: Publish
-on: [push]
+on:
   workflow_call:
     inputs:
       image_name:

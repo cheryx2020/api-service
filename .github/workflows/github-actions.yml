@@ -3,5 +3,5 @@ run-name: Publish
 on: [push]
 jobs:
   publish:
-    uses: ../shared/actions.yml@main
+    uses: ./actions.yml@main
     secrets: inherit

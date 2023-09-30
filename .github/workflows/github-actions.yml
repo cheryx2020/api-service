@@ -1,5 +1,5 @@
 on: [push]
 jobs:
   publish:
-    uses: ./actions.yml
+    uses: ../shared/actions.yml
     secrets: inherit

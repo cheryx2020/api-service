@@ -20,12 +20,13 @@
   "author": "Vinh Nguyen",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.5.1",
-    "rollup": "^3.29.4"
+    "axios": "^1.5.1"
   },
   "bugs": {
     "url": "https://github.com/cheryx2020/api-service/issues"
   },
   "homepage": "https://github.com/cheryx2020/api-service#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "rollup": "^3.29.4"
+  }
 }

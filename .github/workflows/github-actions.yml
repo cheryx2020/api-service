@@ -3,6 +3,10 @@ run-name: Publish
 on: [push]
 jobs:
   publish:
+    permissions:
+      pull-requests: write
+      issues: write
+      repository-projects: write
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:

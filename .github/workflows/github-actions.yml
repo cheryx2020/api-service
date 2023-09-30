@@ -1,6 +1,19 @@
+
 name: Publish
 run-name: Publish
 on: [push]
+  workflow_call:
+    inputs:
+      image_name:
+        required: true
+        type: string
+      tag: 
+        type: string
+    secrets:
+      registry_username:
+        required: true
+      registry_password:
+        required: true
 jobs:
   publish:
     runs-on: ubuntu-latest

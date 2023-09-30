@@ -3,4 +3,4 @@ run-name: Publish
 on: [push]
 jobs:
   publish:
-  uses: organization/repository/.github/workflows/github-actions.yml@main
+  uses: publish

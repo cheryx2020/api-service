@@ -38,8 +38,6 @@ jobs:
       - name: Publish
         uses: github-actions-community/merge-release@main
         env:
-          DEPLOY_DIR: ../../
-          SRC_PACKAGE_DIR: ../../
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - run: echo "🍏 This job's status is ${{ job.status }}."

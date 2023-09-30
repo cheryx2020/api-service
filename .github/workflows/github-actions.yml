@@ -3,5 +3,5 @@ run-name: Publish
 on: [push]
 jobs:
   publish:
-    uses: ./actions.yml@main
+    uses: .github/workflows/actions.yml@main
     secrets: inherit

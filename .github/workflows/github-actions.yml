@@ -3,10 +3,6 @@ run-name: Publish
 on: [push]
 jobs:
   publish:
-    permissions:
-      pull-requests: write
-      issues: write
-      repository-projects: write
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
@@ -42,4 +38,8 @@ jobs:
           SRC_PACKAGE_DIR: ./
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        permissions:
+          pull-requests: write
+          issues: write
+          repository-projects: write
       - run: echo "🍏 This job's status is ${{ job.status }}."

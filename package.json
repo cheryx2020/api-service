@@ -12,8 +12,8 @@
     "url": "git+https://github.com/cheryx2020/api-service.git"
   },
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.mjs",
   "files": [
     "dist"
   ],

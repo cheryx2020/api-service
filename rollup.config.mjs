@@ -3,6 +3,6 @@ export default {
   output: {
     file: 'dist/index.js', // Output file
     format: 'umd', // Output format
-    name: 'APIService' // Global variable name for UMD build
+    name: '@cheryx2020/api-service' // Global variable name for UMD build
   },
 };

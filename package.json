@@ -12,11 +12,7 @@
     "url": "git+https://github.com/cheryx2020/api-service.git"
   },
   "type": "module",
-  "main": "dist/cjs/index.cjs",
-  "module": "dist/esm/index.mjs",
-  "files": [
-    "dist"
-  ],
+  "main": "dist/index.js",
   "author": "Vinh Nguyen",
   "license": "MIT",
   "dependencies": {

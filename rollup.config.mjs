@@ -3,6 +3,10 @@ export default {
   output: {
     file: 'dist/index.js', // Output file
     format: 'umd', // Output format
-    name: '@cheryx2020/api-service' // Global variable name for UMD build
+    name: 'APIService', // Global variable name for UMD build
+    globals: {
+      axios: 'axios', // If axios is an external dependency
+    },
   },
+  external: ['axios'], // Mark axios as an external dependency
 };

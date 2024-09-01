@@ -1,15 +1,8 @@
 export default {
   input: './index.js',
-  output: [
-    {
-      dir: 'dist/esm',
-      format: 'es',
-      entryFileNames: '[name].mjs'
-    },
-    {
-      dir: 'dist/cjs',
-      format: 'cjs',
-      entryFileNames: '[name].cjs'
-    }
-  ]
+  output: {
+    file: 'dist/index.js', // Output file
+    format: 'umd', // Output format
+    name: 'APIService' // Global variable name for UMD build
+  },
 };

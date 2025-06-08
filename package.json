@@ -20,7 +20,7 @@
   "author": "Vinh Nguyen",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.5.1"
+    "axios": "^1.9.0"
   },
   "bugs": {
     "url": "https://github.com/cheryx2020/api-service/issues"

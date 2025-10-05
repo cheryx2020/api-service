@@ -19,6 +19,9 @@ const APIService = {
   put: (url, data, cf) => {
     return axios.put(`${process.env.NEXT_PUBLIC_apiBaseUrl}${url}`,data, cf);
   },
+  patch: (url, data, cf) => {
+    return axios.patch(`${process.env.NEXT_PUBLIC_apiBaseUrl}${url}`, data, cf);
+  },
   get: (url) => {
     return axios.get(`${process.env.NEXT_PUBLIC_apiBaseUrl}${url}`);
   },
